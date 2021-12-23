@@ -115,12 +115,16 @@ a.brand {
 img {
   border-radius: 0.5rem;
 }
-img.medium {
-  max-width: 29rem;
+img.small {
+  max-width: 5rem;
   width: 100%;
 }
+img.medium {
+  width: 25rem;
+}
 img.large {
-  width: 100%;
+  width: 35rem;
+  height: 35rem;
 }
 
 /* Card */
