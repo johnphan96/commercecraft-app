@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import LoadingBox from "../components/LoadingBox";
 import MessageBox from "../components/MessageBox";
 import { detailsProduct } from "../actions/productActions";
+import { addToCart } from "../actions/cartActions";
 
 export default function ProductScreen(props) {
   const dispatch = useDispatch();
@@ -17,7 +18,8 @@ export default function ProductScreen(props) {
     dispatch(detailsProduct(productId));
   }, [dispatch, productId]);
   const addToCartHandler = () => {
-    props.history.push(`/cart/${productId}?qty=${qty}`);
+    // props.history.push(`/cart/${productId}?qty=${qty}`);
+    dispatch(addToCart(productId, qty));
   };
   return (
     <div>
