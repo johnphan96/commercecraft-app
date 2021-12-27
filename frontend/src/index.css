@@ -90,6 +90,9 @@ button.primary {
 button.block {
   width: 100%;
 }
+.cartSelect {
+  width: 6.5rem;
+}
 /* Header */
 header a {
   color: #ffffff;
@@ -135,6 +138,9 @@ a.brand {
   width: 80%;
   height: auto; /* maintain aspect ratio*/
   margin: auto; /*optional centering of image*/
+}
+.min-30 {
+  min-width: 30rem;
 }
 
 /* Image */
