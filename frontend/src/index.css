@@ -18,9 +18,9 @@ body {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header'
-    'main'
-    'footer';
+    "header"
+    "main"
+    "footer";
   grid-template-columns: 1fr;
   grid-template-rows: 5rem 1fr 5rem;
   height: 100%;
@@ -62,8 +62,8 @@ ul {
 li {
   margin-top: 1rem;
 }
-input, 
-select, 
+input,
+select,
 textarea,
 button {
   padding: 1rem;
@@ -78,8 +78,8 @@ button {
   background-color: #f8f8f8;
   cursor: pointer;
 }
-input:hover, 
-select:hover, 
+input:hover,
+select:hover,
 textarea:hover,
 button:hover {
   border: 0.1rem #404040 solid;
@@ -100,6 +100,14 @@ a.brand {
   font-size: 3rem;
   font-weight: bold;
 }
+.badge {
+  background-color: #f08804;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.2rem 0.7rem;
+  font-size: 1.4rem;
+  margin-left: 0.2rem;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -119,8 +127,8 @@ a.brand {
   flex: 2 1 50rem;
   align-items: center;
   justify-content: center; /* not really needed with auto margin on img*/
-  width:80%;
-  margin:auto;
+  width: 80%;
+  margin: auto;
 }
 .col-2 img {
   display: block;
