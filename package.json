@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/johnphan96/commercecraft-app#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.1.4"
   },
   "devDependencies": {
     "eslint": "^8.5.0",
