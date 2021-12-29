@@ -5,7 +5,7 @@ import Product from "../models/productModel.js";
 
 const productRouter = express.Router();
 
-// API to list products
+// API to send list of products to front end
 productRouter.get(
   "/",
   expressAsyncHandler(async (req, res) => {
@@ -14,7 +14,7 @@ productRouter.get(
   })
 );
 
-// Seed API
+// Seed API to create products based on data.products
 productRouter.get(
   "/seed",
   expressAsyncHandler(async (req, res) => {
@@ -24,7 +24,7 @@ productRouter.get(
   })
 );
 
-// product details API
+// API to send product details to frontend
 productRouter.get(
   "/:id",
   expressAsyncHandler(async (req, res) => {
