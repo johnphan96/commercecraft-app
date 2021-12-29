@@ -17,7 +17,6 @@ const data = {
   ],
   products: [
     {
-      _id: "1",
       name: "Diamond Pickaxe",
       category: "Pickaxe",
       image: "/images/minecraft_diamond_pickaxe.png",
@@ -30,7 +29,6 @@ const data = {
       countInStock: 15,
     },
     {
-      _id: "2",
       name: "Diamond Sword",
       category: "Sword",
       image: "/images/diamond_sword.png",
@@ -42,7 +40,6 @@ const data = {
       countInStock: 11,
     },
     {
-      _id: "3",
       name: "Diamond Axe",
       category: "Axe",
       image: "/images/diamond_axe.png",
@@ -54,7 +51,6 @@ const data = {
       countInStock: 8,
     },
     {
-      _id: "4",
       name: "Diamond Shovel",
       category: "Shovel",
       image: "/images/diamond_shovel.png",
@@ -66,7 +62,6 @@ const data = {
       countInStock: 8,
     },
     {
-      _id: "5",
       name: "Diamond Hoe",
       category: "Hoe",
       image: "/images/diamond_hoe.png",
@@ -78,7 +73,6 @@ const data = {
       countInStock: 8,
     },
     {
-      _id: "6",
       name: "Enchanted Diamond Pickaxe",
       category: "Pickaxe",
       image: "/images/enchanted_diamond_pickaxe.gif",
@@ -91,7 +85,6 @@ const data = {
       countInStock: 3,
     },
     {
-      _id: "7",
       name: "Enchanted Diamond Sword",
       category: "Sword",
       image: "/images/enchanted_diamond_sword.gif",
@@ -104,7 +97,6 @@ const data = {
       countInStock: 4,
     },
     {
-      _id: "8",
       name: "Enchanted Diamond Axe",
       category: "Axe",
       image: "/images/enchanted_diamond_axe.gif",
@@ -117,7 +109,6 @@ const data = {
       countInStock: 8,
     },
     {
-      _id: "9",
       name: "Enchanted Diamond Shovel",
       category: "Shovel",
       image: "/images/enchanted_diamond_shovel.gif",
@@ -130,7 +121,6 @@ const data = {
       countInStock: 0,
     },
     {
-      _id: "10",
       name: "Enchanted Diamond Hoe",
       category: "Hoe",
       image: "/images/enchanted_diamond_hoe.gif",
