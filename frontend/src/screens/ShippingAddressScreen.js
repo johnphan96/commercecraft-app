@@ -16,6 +16,7 @@ function ShippingAddressScreen(props) {
 
   // if cart empty, push to home screen
   if (cartItems.length === 0) {
+    alert("Cart empty");
     props.history.push("/");
   }
 

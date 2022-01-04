@@ -148,7 +148,7 @@ img {
   border-radius: 0.5rem;
 }
 img.small {
-  max-width: 5rem;
+  max-width: 6rem;
   width: 100%;
 }
 img.medium {
@@ -219,7 +219,6 @@ img.large {
 }
 .form label {
   margin: 1rem 0;
-  display: block;
 }
 
 /* Dropdown */
@@ -254,4 +253,9 @@ img.large {
 .checkout-steps > div.active {
   border-top-color: #f08000;
   color: #f08000;
+}
+
+.center {
+  display: flex;
+  align-items: center;
 }
