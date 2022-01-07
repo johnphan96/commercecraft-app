@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "cd frontend && npm install && npm run build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "repository": {
@@ -13,7 +14,8 @@
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "16.13.1"
+    "node": "16.13.1",
+    "npm": "8.3.0"
   },
   "bugs": {
     "url": "https://github.com/johnphan96/commercecraft-app/issues"
@@ -25,7 +27,8 @@
     "express": "^4.17.2",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.1.4"
+    "mongoose": "^6.1.4",
+    "yarn": "^1.22.17"
   },
   "devDependencies": {
     "eslint": "^8.5.0",
